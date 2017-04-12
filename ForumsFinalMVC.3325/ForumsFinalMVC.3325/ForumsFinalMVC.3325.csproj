@@ -80,6 +80,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Angular\app.js" />
+    <Content Include="Angular\Comps\Category\CategoryController.js" />
+    <Content Include="Angular\Comps\Category\CategoryService.js" />
+    <Content Include="Angular\Comps\Forums\ForumController.js" />
+    <Content Include="Angular\Comps\Forums\ForumService.js" />
+    <Content Include="Angular\config.js" />
+    <Content Include="Angular\Views\Category_Partial.html" />
+    <Content Include="Angular\Views\Forum_Partial.html" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -101,15 +109,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Angular\Shared\" />
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ForumsFinalApi.3325\ForumsFinalApi.3325.csproj">
-      <Project>{bb4cda15-7f1e-493b-8983-487b08b17f28}</Project>
-      <Name>ForumsFinalApi.3325</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
